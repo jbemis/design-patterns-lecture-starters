@@ -13,6 +13,7 @@ public class Instructor {
         String contents = "make up some things and sound convincing";
         LectureModule lectureModule = new LectureModule(moduleName, contents);
         course.addLectureModule(lectureModule);
+
     }
 
     public void assignCourse(Course course) {
